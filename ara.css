@@ -18,7 +18,7 @@ body {
 
   font-family: 'Otama.ep', sans-serif;
 
-  background-image: -webkit-linear-gradient(#2E0B87, #000);
+  background-image: -webkit-linear-gradient(#000, #000);
 
   background-position: center top;
 
@@ -42,9 +42,9 @@ body {
 
 .page-description {
 
-  background-color: #000;
+  background-color: #666;
 
-  color: #2E0087;
+  color: #333;
 
   padding: 30px;
 
@@ -136,7 +136,7 @@ position: relative;
 
   padding: 8px 18px;
 
-  border: 1px solid #2E0087;
+  border: 1px solid #333;
 
 
 
@@ -160,7 +160,7 @@ nav a {
 
   line-height: 60px;
 
-  color: #2E0087;
+  color: #333;
 
   text-decoration: none;
 
