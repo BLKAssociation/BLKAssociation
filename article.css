@@ -1,65 +1,27 @@
 body {
-  background-color: #000;
-  font-family: Otama.ep, serif;
+background: linear-gradient(-45deg, #FFF, #000);
+margin: 0;
+padding: 0;
 }
-a{
-color: #fff
-}
-h1 {  
-  color: #fff;
-  font-size: 30px;
-  text-align: center;
-}
-p {  
-  color: #fff;
-  text-align: center;
-}
-
-.banner {
-  background-image: url("LOGOE.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-color: transparent;
-  border-top: 0px solid white;
-  border-bottom: 0px solid white;
-  height: 250px;
-}
-
-.container {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0 10px;
-}
-.container {
-  text-align: center;
-}
-
-.container .icon {
-  width: 300px;
-  height: 300px;
- display: inline-table;
-  margin: 2%;
-  border: 0px solid white;
-  font-size: 30px;
-  text-decoration:none;
-  color: #FFF;
-}
-
 
 .header {
-  background-color: #333;
+  background-color: #000;
 display: flex;
 }
 
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
 .nav {
   list-style-type: none;
   margin: 0;
   padding: 20px 0;
 }
-
 .nav li {
-  color: #000;
-  display: inline;
+  color: #333;
+  
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 12px;
@@ -70,9 +32,7 @@ display: flex;
 .nav a {
 color: rgba(142, 141, 141, 0.58);
 text-decoration:none;
-background: #333;
 }
-
 ul#navmenu {
 	width: 645px;
 	margin: 0px auto;
@@ -117,19 +77,95 @@ ul#navmenu ul.sub1 {
 	left: 0px;
 }		
 ul#navmenu li:hover .sub1 {
-	display: block;
+	display: inline;  
 }
 
 
 
+h1 {
+  color: #FFF;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 32px;
+  padding-top: 100px;
+  text-align: left;
+  width: 60%;
+}
+
+h2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 24px;
+  padding-bottom: 30px;
+  text-align: left;
+  width: 70%;
+}
+
+p {
+  color: AliceBlue;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  line-height: 34px;
+  text-align: left;
+  width: 100%;
+}
+
+.byline {
+  color: rgba(255, 255, 255, 0.5);
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+.caption {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.65);
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 80%;
+  width: 60%;
+}
+
+.content {
+  padding: 40px;
+}
+
+.image {
+  background-image: url("nm.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+
+.writer-img {
+  -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  float: left;
+  width: 50px;
+}
+
+
 .footer {
-  background-color: #333;
+  background-color: #000;
   color: rgba(142, 141, 141, 0.58);
   padding: 30px 0;
 }
 
 .footer p {
-  font-family: 'Raleway', sans-serif;
+font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-size: 11px;
 }
